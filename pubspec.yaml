@@ -33,4 +33,5 @@ flutter:
   
   assets:
     - assets/quotes/
-    - assets/images/ 
+    - assets/images/
+    - assets/screenshots/ 

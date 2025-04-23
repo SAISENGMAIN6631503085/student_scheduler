@@ -208,14 +208,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Checkbox(
-                          value: session.isCompleted,
-                          onChanged: (value) {
-                            session.isCompleted = value ?? false;
-                            storageService.updateStudySession(session);
-                            setState(() {});
-                          },
-                        ),
                         IconButton(
                           icon: const Icon(Icons.delete),
                           onPressed: () {
@@ -314,14 +306,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Checkbox(
-                          value: exam.isCompleted,
-                          onChanged: (value) {
-                            exam.isCompleted = value ?? false;
-                            storageService.updateExam(exam);
-                            setState(() {});
-                          },
-                        ),
                         IconButton(
                           icon: const Icon(Icons.delete),
                           onPressed: () {

@@ -206,14 +206,6 @@ class _StudyScheduleScreenState extends State<StudyScheduleScreen> {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Checkbox(
-                          value: session.isCompleted,
-                          onChanged: (value) async {
-                            session.isCompleted = value ?? false;
-                            await storageService.updateStudySession(session);
-                            setState(() {});
-                          },
-                        ),
                         IconButton(
                           icon: const Icon(Icons.delete),
                           onPressed: () {

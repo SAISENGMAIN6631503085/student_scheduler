@@ -240,13 +240,6 @@ class _ExamScheduleScreenState extends State<ExamScheduleScreen> {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Checkbox(
-                          value: exam.isCompleted,
-                          onChanged: (value) {
-                            exam.isCompleted = value ?? false;
-                            storageService.updateExam(exam);
-                          },
-                        ),
                         IconButton(
                           icon: const Icon(Icons.delete),
                           onPressed: () {
