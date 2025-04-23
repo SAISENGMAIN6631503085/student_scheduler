@@ -150,8 +150,11 @@ To install and run the app:
 
 Used AI to:
 - Refine the app concept
-- Generate user personas
 - Identify key features
+
+**Prompts used:**
+- "Suggest a mobile app idea for students to manage their academic schedule"
+- "What features would be most useful in a student scheduling app?"
 
 **5.2 UI Design**
 
@@ -160,12 +163,22 @@ AI assistance with:
 - Color scheme suggestions
 - Widget organization
 
+**Prompts used:**
+- "Design a clean UI for a student scheduling app with calendar integration"
+- "Suggest a color scheme for an educational app"
+- "How should I organize the navigation in a student scheduling app?"
+
 **5.3 Code Writing**
 
 AI helped with:
 - State management implementation
 - Local notification setup
 - Database structure
+
+**Prompts used:**
+- "How to implement state management in Flutter using Provider?"
+- "Show me code for setting up local notifications in Flutter"
+- "How to structure a Hive database for storing study sessions and exams?"
 
 **5.4 Debugging Help**
 
@@ -174,10 +187,8 @@ AI assisted in resolving:
 - Notification permission handling
 - Widget lifecycle management
 
-**5.5 Deployment Help**
-
-AI provided guidance on:
-- Flutter build process
-- Platform-specific configurations
-- Release preparation
+**Prompts used:**
+- "My Flutter app crashes when updating state"
+- "How to properly request notification permissions in Flutter?"
+- "Why is my widget not rebuilding when data changes?"
 
